@@ -1,0 +1,21 @@
+{
+  "purpose_contributions": {
+    "hybrid_retrieval_with_images": [
+      {
+        "subquery": "What research problem does the paper state?",
+        "record": {
+          "records": [
+            {
+              "claim": "The study investigates PD classification.",
+              "category": "purpose",
+              "pdf_page": "1",
+              "value": null,
+              "unit": null
+            }
+          ],
+          "unsupported": []
+        }
+      }
+    ]
+  }
+}

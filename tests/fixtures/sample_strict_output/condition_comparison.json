@@ -1,0 +1,14 @@
+{
+  "descriptive_summary": {
+    "hybrid_retrieval_with_images": {
+      "extracted_record_count": 29,
+      "unsupported_item_count": 4
+    }
+  },
+  "page_concentration_diagnostic": {
+    "hybrid_retrieval_with_images": {
+      "most_cited_page": "6",
+      "most_cited_page_share": 0.4
+    }
+  }
+}

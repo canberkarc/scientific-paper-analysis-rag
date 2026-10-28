@@ -1,0 +1,20 @@
+{
+  "status": "STRUCTURAL_PASS_SEMANTIC_REVIEW_REQUIRED",
+  "structural_checks": {
+    "strict_json_null_validation": true,
+    "automatic_semantic_claim_verification": false
+  },
+  "citation_checks": [
+    {
+      "topic": "method",
+      "mode": "hybrid_retrieval_with_images",
+      "pdf_page": 6,
+      "reported_value": 0.81,
+      "reported_value_found_in_extracted_page_text": false,
+      "looks_like_citation_reference_number": false
+    }
+  ],
+  "limitations": [
+    "Semantic support for each generated claim still requires manual review."
+  ]
+}

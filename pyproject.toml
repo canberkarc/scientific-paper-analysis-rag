@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pdf-review"
+version = "0.1.0"
+description = "Evidence-grounded, multimodal RAG review pipeline for scientific PDFs"
+requires-python = ">=3.10"
+dependencies = [
+    "torch",
+    "transformers",
+    "qwen-vl-utils",
+    "sentence-transformers",
+    "pypdfium2",
+    "pillow",
+    "numpy",
+]
+
+[project.optional-dependencies]
+dev = ["pytest"]
+
+[tool.setuptools.packages.find]
+where = ["src"]

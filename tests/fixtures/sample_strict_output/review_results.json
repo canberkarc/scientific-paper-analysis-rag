@@ -1,0 +1,40 @@
+{
+  "results": [
+    {
+      "topic": "purpose_contributions",
+      "answers": {
+        "hybrid_retrieval_with_images": {
+          "answer": "### Purpose Contributions\n\n#### What research problem does the paper state?\n- The study investigates PD classification from gait dynamics. [PDF page 1]"
+        }
+      }
+    },
+    {
+      "topic": "method",
+      "answers": {
+        "hybrid_retrieval_with_images": {
+          "answer": "### Method\n\n#### What method does the paper propose?\n- Random Forest, Mamba, and PatchTST were compared. [PDF page 2]"
+        }
+      }
+    }
+  ],
+  "reviewer_assessment": {
+    "hybrid_retrieval_with_images": {
+      "structured": {
+        "strengths": [
+          {
+            "claim": "Clear contribution list.",
+            "evidence_refs": [
+              "purpose_contributions:1:1"
+            ],
+            "evidence_pages": [
+              1
+            ]
+          }
+        ],
+        "recommendations": [],
+        "unresolved_checks": []
+      },
+      "review": "### Evidence-grounded reviewer assessment\n\n#### Strengths\n- Clear contribution list. [PDF pages 1]\n\n#### Recommendations\n- No recommendation was supported by the extracted evidence.\n\n#### Unresolved checks\n- None reported."
+    }
+  }
+}
